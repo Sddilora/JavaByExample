@@ -1,0 +1,3 @@
+###############
+# In Java, the entry point is the Main class.
+# We indicate the end of a line of code with a semicolon(;).
