@@ -2,4 +2,5 @@
 # In Java, the entry point is the Main class.
 # We indicate the end of a line of code with a semicolon(;).
 # Java is case sensitive
-# Variables written based to camelCase 
+# Variables written based to camelCase
+#reusability  : Do not write same thing again and again write once and use whenever u need.
