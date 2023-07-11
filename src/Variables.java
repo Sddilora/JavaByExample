@@ -13,13 +13,34 @@ public class Variables {
         String message = "Number of student is : ";
         System.out.println(message + numOfStudents);
 
-        // Primitive Types
-        int a = 5;
-        char b = 'i';
-        long c = 1000000000000000000L;
-        double d = 1.5;
+        // PRIMITIVE TYPES
+        // They store values
 
-        // Non-Primitive Types
+        // integer types
+        byte aSingleByte = 100; // -128 to 127
+        short aSmallNumber = 20000; // -32,768 to 32,767
+        int anInteger = 2147483647; // -2,147,483,648 to 2,147,483,647
+        long aLargeNumber = 9223372036854775807L; // -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+        // We have to append an "L" or "l (small L)" to the end of the number to
+        // indicate that it is a
+        // long value. Otherwise, Java (Compiler) will assume it is an integer.
+
+        // decimal types
+        float aDecimalNumber = 3.4028F; // 1.4E-45 to 3.4028235E38
+        double aLargeDecimalNumber = 1.79769313; // 4.9E-324 to 1.7976931348623157E308
+
+        // boolean type
+        boolean aTrueOrFalseValue = true; // true or false
+
+        // character type
+        char copyrightSymbol = '\u00A9'; // '\u0000' (which corresponds to the null character) to '\uffff' (which
+                                         // represents the maximum Unicode character value). In decimal, the range is
+                                         // from 0 to 65535.
+        char percentSymbol = '%';
+
+        // NON-PRIMITIVE (REFERENCE) TYPES
+        // They stores the reference of the memory location where a dynamic object is
+        // being stored.
         String name = "Sdd";
         System.out.println(name.toUpperCase());
 
