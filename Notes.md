@@ -13,6 +13,7 @@
 - Class is just a Java file that helps us to create objects
 - Each object has its own methods
 - void means that the method does not return anything ( public void setName(String name) )
+- We are declaring classes as public because we want to access them within our entire project
 
 ## Java String Methods
 > The String class has a set of built-in methods that you can use on strings.
