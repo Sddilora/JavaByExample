@@ -36,6 +36,11 @@ public class HashMaps {
         // English-100
         // Sociology-85
 
+        examScores.forEach((subject, score) -> {
+            examScores.replace(subject, score + 10);
+        } );
+        System.out.println(examsScores.toString());
+
         examsScores.clear();
         System.out.println(examsScores.toString());  // {}
 
