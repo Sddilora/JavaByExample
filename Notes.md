@@ -14,6 +14,7 @@
 - Each object has its own methods
 - void means that the method does not return anything ( public void setName(String name) )
 - We are declaring classes as public because we want to access them within our entire project
+- .toString() comess with every siingle Reference type.
 
 ## Java String Methods
 > The String class has a set of built-in methods that you can use on strings.
